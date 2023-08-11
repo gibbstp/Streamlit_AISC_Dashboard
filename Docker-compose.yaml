@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  python:
+    build: .
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
+    ports:
+      - "127.0.0.1:8000:8000"

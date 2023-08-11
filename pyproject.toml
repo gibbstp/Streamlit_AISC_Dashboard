@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aisc shapes dashboard"
+version = "0.1.0"
+description = "Streamlit dashboard to lookup AISC structural shapes"
+authors = ["gibbstp <gibbstp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.25.0"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
